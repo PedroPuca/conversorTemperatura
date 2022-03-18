@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Temperaturas</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de Temperaturas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em K, F ou C
+  </p>
+  <br></br>
+  <br></br>
+  <label for="temperatura">Insira a temperatura</label><br>
+  <input type="number" id="valor" size="2" /><br>
+  <button type="submit" onclick="cParaF()">°C para °F</button> <button type="submit" onclick="cParaK()">C° para °K</button>
+  <button type="submit" onclick="fParaK()">°F para °K</button>
+  <br></br>
+  <button type="submit" onclick="fParaC()">°F para °C</button>
+  <button type="submit" onclick="kParaC()">°K para °C</button>
+  <button type="submit" onclick="kParaF()">°K para °F</button>
+  <h2 id="valorConvertido"></h2>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
